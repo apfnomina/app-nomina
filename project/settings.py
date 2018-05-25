@@ -91,6 +91,9 @@ from . import database
 DATABASES = {
            'default': {
               'ENGINE':   'mysql.connector.django',
+              'USER':     'userHMV',
+              'PASSWORD': 'AbIH3ujyh8epx8Qp',
+              'HOST':     'mysql',
               'NAME':     'sampledb',
               'PORT':     '3306'
            }
