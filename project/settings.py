@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
+    'main',
     'welcome',
 ]
 
@@ -91,9 +92,6 @@ DATABASES = {
            'default': {
               'ENGINE':   'mysql.connector.django',
               'NAME':     'sampledb',
-              'USER':     'userHMV',
-              'PASSWORD': 'AbIH3ujyh8epx8Qp',
-              'HOST':     'mysql',
               'PORT':     '3306'
            }
 }
